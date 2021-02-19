@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background: pink;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	font-family: sans-serif;
+}
+
+img{
+	margin-left: 450px;
+	margin-top: 100px;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	
+}
+
+h1{
+	margin-left: 150px;
+	margin: auto;
+	margin-top: 200px;
+	
+
+	
+}
+
+.button{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-decoration: none;
+	background: #3498DB;
+	color: #fff;
+	padding: 20px 35px;
+}
+
+#si{
+	left: 20%;
+	transform: translateY(-50%) translateX(-20px);
+}
+
+#no{
+	left: 80%;
+	transform: translateY(-50%) translateX(-80%);
+
+}
